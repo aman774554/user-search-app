@@ -1,0 +1,32 @@
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    line-height: 64px;
+  }
+  
+  .search-bar {
+    float: right;
+  }
+  
+  .ant-layout-content {
+    padding: 50px;
+    min-height: calc(100vh - 64px);
+    background: #f0f2f5;
+  }
+
+  .loader {
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  .ant-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ant-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
